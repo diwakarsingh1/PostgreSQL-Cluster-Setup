@@ -26,7 +26,7 @@ Modify the configurations of the primary node as follows:
 
 <h2>Step 2: Modify the pg_hba.conf file to configure the permissions for the secondary node to connect to the primary node.</h2>
 
-Replace <YOUR_USER> with a username of the secondary node.
-Replace <Private IP address or CIDR block of the secondary node> with the private IP address of the ECS instance used as the secondary node or the CIDR block to which the private IP address belongs.
+- Replace <YOUR_USER> with a username of the secondary node.
+- Replace <Private IP address or CIDR block of the secondary node> with the private IP address of the ECS instance used as the secondary node or the CIDR block to which the private IP address belongs.
 
     sudo -u postgres psql -c "CREATE ROLE <YOUR_USER> REPLICATION LOGIN PASSWORD '<YOUR_PASSWORD>';"
