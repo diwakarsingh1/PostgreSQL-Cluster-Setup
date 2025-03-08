@@ -145,7 +145,7 @@ Modify the configurations of the primary node as follows:
         exit
 
 
-<h1>**Conclusion**</h1>
+<h1>Conclusion</h1>
 By following this guide, you have successfully set up a PostgreSQL primary and secondary node cluster using streaming replication. This ensures high availability, improved performance, and minimal downtime in case of a primary node failure. Happy database clustering!
 
  
